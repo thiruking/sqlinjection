@@ -33,6 +33,8 @@ Identify IP address using ifconfig in Metasploitable2
 
 ## OUTPUT :
 
+![Screenshot 2025-05-17 184103](https://github.com/user-attachments/assets/b6b2b71f-7ca8-4403-a9e7-cda98660c3be)
+
 
 
 Use the above ip address to access the apache webserver of Metasploitable2 from kali linux. In Kali Linux use the ip address in a web browser.
@@ -108,10 +110,14 @@ sudo nano /var/www/mutillidae/config.inc
 Type msfadmin when prompted for the root password. 
 Once nano opens config.inc file, look for the line $dbname = ‘metasploit’ as shown in Figure  below:
 
+![Screenshot 2025-05-14 123811](https://github.com/user-attachments/assets/68654f73-0cb7-47c4-8383-aaff605959f5)
 
 
 Replace ‘metasploit’ with ‘owasp10’ and make sure the lines end with semicolon ; as shown in Figure
 ## OUTPUT :
+
+![Screenshot 2025-05-14 123905](https://github.com/user-attachments/assets/ca527760-3b29-4354-af73-1c472e384a04)
+
 
 
 
@@ -124,6 +130,7 @@ sudo /etc/init.d/apache2 reload
 
 ## OUTPUT :
 
+![Screenshot 2025-05-17 184925](https://github.com/user-attachments/assets/8d335aab-0aee-41c2-a40c-2d0fd9132b7b)
 
 
  Reset Mutillidae database
